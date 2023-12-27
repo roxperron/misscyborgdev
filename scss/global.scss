@@ -1,0 +1,12 @@
+@import "mixins";
+@import "placeholders";
+@import "variables";
+@import "./pages_scss/home";
+@import "./pages_scss/aboutme";
+@import "./pages_scss/projects";
+@import "./pages_scss/contact";
+
+
+body{
+    background: #000;
+}
