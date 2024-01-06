@@ -1,0 +1,16 @@
+.home{
+    @extend %backgroundHome;
+    position: relative;
+}
+
+.infoHome{
+    @include titleSection;
+    color:$neutral2;
+    text-align: center;
+    position: absolute;
+    left: 600px;
+    top:400px;
+}
+
+
+

@@ -1,5 +1,24 @@
-body {
-  background: #000;
+@import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@300&family=Saira&display=swap");
+.home {
+  background: url("../images/home/cover.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+}
+
+.home {
+  position: relative;
+}
+
+.infoHome {
+  font-family: "Saira";
+  font-size: 40px;
+  font-weight: bolder;
+  color: #EDF2F3;
+  text-align: center;
+  position: absolute;
+  left: 600px;
+  top: 400px;
 }
 
 /*# sourceMappingURL=style.css.map */
