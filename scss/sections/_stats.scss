@@ -1,0 +1,12 @@
+.stats{
+    @include backgroundNeutral1;
+    height: 300px;
+
+}
+
+.statsWrapper{
+    @include flexPosition;
+    padding: 100px;
+    @include textSection;
+    text-align: center;
+}

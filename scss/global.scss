@@ -3,8 +3,17 @@
 @import "placeholders";
 @import "mixins";
 @import "./sections/home";
+@import "./sections/stats";
 @import "./sections/projects";
 @import "./sections/about";
 @import "./sections/contact";
 
 
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}

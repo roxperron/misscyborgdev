@@ -4,10 +4,18 @@
     background:url('../images/home/cover.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 900px;
+    background-position: center;
+    height: 100vh;
+    padding: 0 50px;
+
 }
 
-
+%homeInfo{
+    font-family: $titleFont;
+    font-size:$fontSize-title;
+    font-weight: bolder;
+    color: $neutral2;
+}
 
 
 %backgroundNeutral2{

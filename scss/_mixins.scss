@@ -4,13 +4,20 @@
     font-family: $titleFont;
     font-size:$fontSize-title;
     font-weight: bolder;
+    color: $neutral2;
 }
 
 @mixin textSection{
     font-family: $textFont;
     font-size:$fontSize-text;
     font-weight: bold;
-    padding: 10px;
+    color:$neutral2;
+}
+
+@mixin flexPosition{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 @mixin backgroundNeutral1{
