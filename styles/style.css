@@ -34,6 +34,20 @@ nav {
   z-index: 10;
 }
 
+.menu-list {
+  list-style-type: none;
+  display: none;
+}
+
+.menu-list li a {
+  text-decoration: none;
+  font-size: 40px;
+  font-family: "Advent Pro";
+  font-weight: bold;
+  color: #EDF2F3;
+  text-align: center;
+}
+
 .webName {
   color: #EDF2F3;
   font-size: 40px;
@@ -48,10 +62,41 @@ nav {
   text-decoration: none;
   background: #EDF2F3;
   padding: 10px 12px;
-  border-radius: 3px;
+  border-radius: 5px;
   margin-top: 15px;
+  cursor: pointer;
 }
 
+.projectsLink:hover {
+  color: #EDF2F3;
+  background: #7D4C90;
+}
+
+.down-icon {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 2px solid #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 0 0 #fff;
+  animation: pulse 1.3s infinite;
+}
+
+.down-icon img {
+  width: 60px;
+}
+
+@keyframes pulse {
+  to {
+    box-shadow: 0 0 0 16px rgba(255, 255, 255, 0.01);
+  }
+}
 .stats {
   background: #0B0B0B;
   height: 300px;
