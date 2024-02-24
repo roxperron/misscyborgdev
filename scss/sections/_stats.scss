@@ -10,3 +10,32 @@
     @include textSection;
     text-align: center;
 }
+
+
+/*--------------- RESPONSIVE ----------*/
+
+@media screen and (max-width: 768px)  {
+    .statsWrapper{
+        padding: 75px;
+     
+    }
+
+    .statsWrapper{
+        padding: 55px;
+      
+     
+    }
+  }
+
+  @media screen and (max-width: 520px)  {
+    .stats{
+        height: 500px;
+    
+    }
+    .statsWrapper{
+
+        @include gridPositionResponsive1;
+        
+     
+    }
+  }
