@@ -5,7 +5,11 @@
     font-size:$fontSize-title;
     font-weight: bolder;
     color: $neutral2;
+    text-align: center;
+    margin: 75px;
+    padding: 25px;
 }
+
 
 @mixin textSection{
     font-family: $textFont;
@@ -14,11 +18,24 @@
     color:$neutral2;
 }
 
+
+
 @mixin flexPosition{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+@mixin flexCards{
+    width: 100%;
+    height: auto;
+    margin: 0 auto 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
 
 @mixin gridPositionResponsive1{
     display: grid;
