@@ -166,7 +166,7 @@ nav {
   align-items: center;
   padding: 100px;
   font-family: "Advent Pro";
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
   color: #EDF2F3;
   text-align: center;
@@ -233,6 +233,52 @@ nav {
 .card img {
   width: 100%;
   height: auto;
+}
+
+.about {
+  background: linear-gradient(to bottom, #1C72A9, #7D4C90, #DC446E);
+  width: 100%;
+}
+
+.aboutTitle {
+  font-family: "Saira";
+  font-size: 40px;
+  font-weight: bolder;
+  color: #EDF2F3;
+  text-align: center;
+  margin: 75px;
+  padding: 25px;
+}
+
+.aboutContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 50px;
+}
+
+.aboutImg {
+  padding-right: 15px;
+}
+
+.aboutImg img {
+  border-radius: 5%;
+  width: 100%;
+}
+
+.aboutText {
+  font-family: "Advent Pro";
+  font-size: 24px;
+  font-weight: bold;
+  color: #EDF2F3;
+  padding-right: 25px;
+}
+
+.technosContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 50px;
 }
 
 *,

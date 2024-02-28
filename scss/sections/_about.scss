@@ -1,0 +1,37 @@
+.about{
+    @include backgroundLG;
+}
+
+.aboutTitle{
+    @include titleSection;
+
+}
+
+.aboutContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:0 50px;
+}
+
+.aboutImg{
+    padding-right: 15px;
+}
+
+.aboutImg img{
+    border-radius:5%;
+    width: 100%;
+}
+
+
+.aboutText{
+    @include textSection;
+    padding-right: 25px;
+}
+
+.technosContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:0 50px;
+}

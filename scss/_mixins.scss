@@ -50,6 +50,11 @@
    background: $neutral1;
 }
 
+@mixin backgroundLG{
+    background: linear-gradient(to bottom, $color60, $color10, $color30);
+    width: 100%;
+}
+
 @mixin textIcon{
     font-family: $textFont;
     font-size: $fontSize-icon;
