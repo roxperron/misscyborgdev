@@ -208,7 +208,6 @@ nav {
 .projectsContainer {
   width: 100%;
   height: auto;
-  margin: 0 auto 100px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -232,7 +231,6 @@ nav {
 
 .card img {
   width: 100%;
-  height: auto;
 }
 
 .about {
@@ -252,33 +250,52 @@ nav {
 
 .aboutContainer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  margin: 0 50px;
+  margin: 150px;
 }
 
 .aboutImg {
-  padding-right: 15px;
-}
-
-.aboutImg img {
+  width: 50%;
   border-radius: 5%;
-  width: 100%;
+  padding: 25px;
 }
 
-.aboutText {
+.aboutText1 {
   font-family: "Advent Pro";
   font-size: 24px;
   font-weight: bold;
   color: #EDF2F3;
-  padding-right: 25px;
+  line-height: 1.5;
+  padding-bottom: 15px;
 }
 
-.technosContainer {
+.aboutText2 {
+  font-family: "Advent Pro";
+  font-size: 24px;
+  font-weight: bold;
+  color: #EDF2F3;
+  line-height: 1.5;
+}
+
+.technosTitle {
+  font-family: "Saira";
+  font-size: 40px;
+  font-weight: bolder;
+  color: #EDF2F3;
+  text-align: center;
+  margin: 75px;
+  padding: 25px;
+  margin: 25px;
+  padding: 15px;
+}
+
+.techIconContainer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 0 50px;
+  margin: 0 150px;
+  padding-bottom: 25px;
 }
 
 *,

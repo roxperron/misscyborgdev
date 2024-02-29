@@ -9,29 +9,43 @@
 
 .aboutContainer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin:0 50px;
+    margin:150px;
 }
 
 .aboutImg{
-    padding-right: 15px;
-}
-
-.aboutImg img{
-    border-radius:5%;
-    width: 100%;
+width: 50%;
+border-radius: 5%;
+padding: 25px;
 }
 
 
-.aboutText{
+
+
+.aboutText1 {
     @include textSection;
-    padding-right: 25px;
+    line-height: 1.5;
+    padding-bottom: 15px;
 }
 
-.technosContainer{
+.aboutText2 {
+    @include textSection;
+    line-height: 1.5;
+}
+
+
+.technosTitle{
+    @include titleSection;
+    margin: 25px;
+    padding: 15px;
+
+}
+
+.techIconContainer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin:0 50px;
+    margin: 0 150px;
+    padding-bottom: 25px;
 }
